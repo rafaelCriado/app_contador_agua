@@ -60,7 +60,7 @@ export default class App extends Component{
             </View>
 
             <View style={styles.btnArea}>
-              <Button title="Beber 200ml" style={styles.btnAdicionar} onPress={this.addCopo}></Button>
+              <Button title="Beber 200ml" style={styles.btnAdicionar} onPress={this.addCopo} color="#841584"></Button>
             </View>
           </View>
         </ImageBackground>
